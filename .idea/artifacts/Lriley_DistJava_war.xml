@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lriley_DistJava:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Lriley_DistJava</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myWebApp.war">
+      <element id="artifact" artifact-name="Lriley_DistJava:war exploded" />
+    </root>
+  </artifact>
+</component>
